@@ -5,8 +5,7 @@
 ::-moz-selection {
     background: #41ad4f;
   color: #fff;
-}   
-#gotop { z-index: 80; opacity: .7;}
+}
 .container {
   margin-top: 30px;
   padding: 0 20px 0 20px;
@@ -56,9 +55,9 @@
 .BackHome {
   position:fixed;
   top: 10px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: 1px solid red;     
   background: red;
@@ -66,8 +65,17 @@
   padding: 0px;
   cursor: pointer;
   text-align: center;
-  line-height: 60px;
+  line-height: 50px;
+  font-size: .8em;
   z-index: 99;
+}
+.BackHome:hover {
+  opacity: 0.5;
+  transition: 0.1s;
+}
+.BackHome:focus {
+  opacity: 0.5;
+  transition: 0.1s;
 }
 .BackHome > a {
   text-decoration: none;
