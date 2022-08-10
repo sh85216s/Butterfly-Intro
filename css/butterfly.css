@@ -22,13 +22,13 @@
   height: 150px; 
   display: inline-flexbox;
   margin: 0 auto;
-  border: solid 1px rgb(16, 85, 33);
+  border: solid 1px #73BF00;
   border-radius: 50%;     
   padding: 45px 0;
   text-align: center;      
 }
 .Species:hover {
-  background-color: rgb(16, 85, 33);
+  background-color: #73BF00;
   color: #fff;
   /* cursor: pointer; */
 }
