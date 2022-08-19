@@ -94,6 +94,7 @@
   padding-top: 20px;
   padding-bottom: 10px;
 }
+/* figcaption > div {} */
 .longshadow { padding: 20px 0 0 0; }
 .longshadow li { display: inline-block; }
 .longshadow li>figure {
