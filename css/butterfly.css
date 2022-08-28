@@ -12,7 +12,7 @@
   margin-top: 30px;
   padding: 0 20px 0 20px;
   width: 85%;
-  border: 1px dashed gray;
+  border: 1px dashed #000;
   border-radius: .5%;
 }
 
@@ -54,6 +54,7 @@
 
 .DOC a:hover {
   color: #f00;
+  transition: .3s;
 }
 
 .SubMenu {
