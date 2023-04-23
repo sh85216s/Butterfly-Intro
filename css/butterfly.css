@@ -1,3 +1,12 @@
+.A-image,.B-image,.C-image,.D-image,.E-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.A-image:hover,.B-image:hover,.C-image:hover,.D-image:hover,.E-image:hover {
+  opacity: 1;
+}
 .BackHome {
   position: fixed;
   top: 30px;
@@ -99,22 +108,6 @@
   background: #41ad4f;
   color: #fff;
 }
-.Species {
-  width: 150px;
-  height: 150px;
-  display: inline-flexbox;
-  margin: 0 auto;
-  border: solid 1px #73BF00;
-  border-radius: 50%;
-  padding: 45px 0;
-  text-align: center;
-}
-
-.Species:hover {
-  background-color: #73BF00;
-  color: #fff;
-  /* cursor: pointer; */
-}
 
 .SubMenu {
   line-height: 120px;
@@ -141,14 +134,15 @@
   .col-md-1-5 {
     width: 20%;
   }
-
 }
-@media screen and (max-width: 1023px) {
-  .Species {
-    width: 120px;
-    height: 120px;
-    padding: 30px 0;
-  }
+@media screen and (max-width: 1023px) { 
+    .A-image,
+      .B-image,
+      .C-image,
+      .D-image,
+      .E-image {
+        margin: auto;
+      }
 
   .BackHome {
     top: 10px !important;
