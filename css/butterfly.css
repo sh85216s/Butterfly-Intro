@@ -1,12 +1,22 @@
-.A-image,.B-image,.C-image,.D-image,.E-image {
+.A-image,
+.B-image,
+.C-image,
+.D-image,
+.E-image {
   position: absolute;
   left: 0;
   top: 0;
   opacity: 0;
 }
-.A-image:hover,.B-image:hover,.C-image:hover,.D-image:hover,.E-image:hover {
+
+.A-image:hover,
+.B-image:hover,
+.C-image:hover,
+.D-image:hover,
+.E-image:hover {
   opacity: 1;
 }
+
 .BackHome {
   position: fixed;
   top: 30px;
@@ -24,22 +34,27 @@
   font-size: 1em;
   z-index: 99;
 }
+
 .BackHome:hover {
   opacity: 0.5;
   transition: 0.1s;
 }
+
 .BackHome:focus {
   opacity: 0.5;
   transition: 0.1s;
 }
+
 .BackHome>a {
   text-decoration: none;
   color: #fff;
 }
+
 .BackHome>a :hover {
   text-decoration: none;
   color: #fff;
 }
+
 .card {
   display: block;
   margin: auto;
@@ -49,6 +64,7 @@
 .card-title {
   text-align: center;
 }
+
 .container {
   margin-top: 30px;
   padding: 0 20px 0 20px;
@@ -56,6 +72,7 @@
   border: 1px dashed #000;
   border-radius: .5%;
 }
+
 .DOC {
   display: flex;
   justify-content: center;
@@ -75,6 +92,7 @@
   color: #f00;
   transition: .3s;
 }
+
 .longshadow {
   padding: 20px 0 0 0;
 }
@@ -93,17 +111,21 @@
   margin: 5px;
   overflow: hidden;
 }
+
 ::-moz-selection {
   background: #41ad4f;
   color: #fff;
 }
+
 .row {
   row-gap: 10px;
   padding: 5px 0 5px 0;
 }
+
 .row>* {
   margin-top: 0px;
 }
+
 ::selection {
   background: #41ad4f;
   color: #fff;
@@ -112,12 +134,14 @@
 .SubMenu {
   line-height: 120px;
 }
+
 .Subtitle {
   color: #7849f8;
   font-weight: bold;
   font-size: 1.4em;
   padding: 15px 0 5px 0;
 }
+
 .TitlePhoto {
   max-height: 100%;
   max-width: 100%;
@@ -126,24 +150,19 @@
   padding-top: 20px;
   padding-bottom: 10px;
 }
+
 .UnderLine {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
 @media screen and (min-width: 768px) {
   .col-md-1-5 {
     width: 20%;
   }
 }
-@media screen and (max-width: 1023px) { 
-    .A-image,
-      .B-image,
-      .C-image,
-      .D-image,
-      .E-image {
-        margin: auto;
-      }
 
+@media screen and (max-width: 1023px) {
   .BackHome {
     top: 10px !important;
     right: 10px !important;
